@@ -16,3 +16,4 @@ solutions to [Princeton Algorithms course](https://www.coursera.org/learn/algori
 - 100%
 - superfast treatment of output segment array in `Fast...` version, under 2 sec even for n=4096 in last tests
 - ... thanks to custom inner class that implements comparable for line segments, thus allowing sorting and deduplication in O(NlogN)
+- ... but there is a way to make it even faster by being smarter about duplicated segments (deduplicate at discovery time, not at the end?). Maybe will revisit.
