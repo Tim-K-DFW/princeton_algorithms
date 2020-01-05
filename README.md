@@ -20,6 +20,6 @@ solutions to [Princeton Algorithms course](https://www.coursera.org/learn/algori
 
 ##### Week 4
 - 100%
-- method names in `Board` are funny because initial implementation used 2d array but I had to convert it to 1d to pass memory test (which only mattered for smallest boards (2..4)). So it's a hybrid: storage is 1d but most things that require spacial reasoning are first converted to 2d
+- method names in `Board` are funny because initial implementation used 2d array but I had to convert it to 1d to pass memory test (which only mattered for smallest boards (2..4)). So it's a hybrid: storage is 1d but most things that require spatial reasoning are first converted to 2d
 - creation of neighbors and twins turned out clean, IMO... both use same swapping method
 - Java is getting easier to deal with, custom comparables helped a lot with `Node`, for sure.
